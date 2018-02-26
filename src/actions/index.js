@@ -1,4 +1,4 @@
-import * as types from "./../constants/ActionTypes";
+import * as types from './../constants/ActionTypes';
 import v4 from 'uuid/v4';
 
 export const nextLyric = (currentSongId) => ({
@@ -28,7 +28,7 @@ export function fetchSongId(title) {
       response => response.json(),
       error => console.log('An error occurred.', error)
     ).then(function(json) {
-      console.log('CHECK OUT THIS SWEET API RESPONSE:', json)
+      console.log('CHECK OUT THIS SWEET API RESPONSE:', json);
     });
   };
 }
