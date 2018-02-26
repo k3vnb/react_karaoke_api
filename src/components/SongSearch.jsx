@@ -31,4 +31,4 @@ SongSearch.propTypes = {
   dispatch: PropTypes.func
 };
 
-export default SongSearch;
+export default connect() (SongSearch);
